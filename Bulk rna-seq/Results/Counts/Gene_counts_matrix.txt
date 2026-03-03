@@ -1,0 +1,88 @@
+
+
+# Gene_counts_matrix.txt
+
+
+        ==========     _____ _    _ ____  _____  ______          _____
+        =====         / ____| |  | |  _ \|  __ \|  ____|   /\   |  __ \
+          =====      | (___ | |  | | |_) | |__) | |__     /  \  | |  | |
+            ====      \___ \| |  | |  _ <|  _  /|  __|   / /\ \ | |  | |
+              ====    ____) | |__| | |_) | | \ \| |____ / ____ \| |__| |
+        ==========   |_____/ \____/|____/|_|  \_\______/_/    \_\_____/
+          v2.1.1
+
+//========================== featureCounts setting ===========================\\
+||                                                                            ||
+||             Input files : 6 BAM files                                      ||
+||                                                                            ||
+||                           SRR6218466_sorted.bam                            ||
+||                           SRR6218469_sorted.bam                            ||
+||                           SRR6218470_sorted.bam                            ||
+||                           SRR6218476_sorted.bam                            ||
+||                           SRR6218478_sorted.bam                            ||
+||                           SRR6218479_sorted.bam                            ||
+||                                                                            ||
+||             Output file : counts.txt                                       ||
+||                 Summary : counts.txt.summary                               ||
+||              Paired-end : yes                                              ||
+||        Count read pairs : yes                                              ||
+||              Annotation : Homo_sapiens.GRCh38.115.gtf (GTF)                ||
+||      Dir for temp files : ./                                               ||
+||                                                                            ||
+||                 Threads : 4                                                ||
+||                   Level : meta-feature level                               ||
+||      Multimapping reads : not counted                                      ||
+|| Multi-overlapping reads : not counted                                      ||
+||   Min overlapping bases : 1                                                ||
+||                                                                            ||
+\\============================================================================//
+
+//================================= Running ==================================\\
+||                                                                            ||
+|| Load annotation file Homo_sapiens.GRCh38.115.gtf ...                       ||
+||    Features : 3683354                                                      ||
+||    Meta-features : 78899                                                   ||
+||    Chromosomes/contigs : 70                                                ||
+||                                                                            ||
+|| Process BAM file SRR6218466_sorted.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 16908625                                             ||
+||    Successfully assigned alignments : 8224993 (48.6%)                      ||
+||    Running time : 0.25 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR6218469_sorted.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 20681911                                             ||
+||    Successfully assigned alignments : 10185209 (49.2%)                     ||
+||    Running time : 0.31 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR6218470_sorted.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 21107428                                             ||
+||    Successfully assigned alignments : 10157415 (48.1%)                     ||
+||    Running time : 0.35 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR6218476_sorted.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 16070970                                             ||
+||    Successfully assigned alignments : 6987470 (43.5%)                      ||
+||    Running time : 0.24 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR6218478_sorted.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 17397419                                             ||
+||    Successfully assigned alignments : 7741585 (44.5%)                      ||
+||    Running time : 0.31 minutes                                             ||
+||                                                                            ||
+|| Process BAM file SRR6218479_sorted.bam...                                  ||
+||    Paired-end reads are included.                                          ||
+||    Total alignments : 22677513                                             ||
+||    Successfully assigned alignments : 10288050 (45.4%)                     ||
+||    Running time : 0.37 minutes                                             ||
+||                                                                            ||
+|| Write the final count table.                                               ||
+|| Write the read assignment summary.                                         ||
+||                                                                            ||
+|| Summary of counting results can be found in file "counts.txt.summary"      ||
+||                                                                            ||
+\\============================================================================//
