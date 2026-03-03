@@ -1,6 +1,0 @@
-
-# Reference.txt
-
-Genome: Homo_sapiens.GRCh38.dna.primary_assembly.fa
-Annotation: Homo_sapiens.GRCh38.115
-Aligner: HISAT2
