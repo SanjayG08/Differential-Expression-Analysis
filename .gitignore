@@ -1,8 +1,0 @@
-*.fastq.gz
-*.bam
-*.sam
-*.RData
-*.log
-*.out
-*.zip
-*.tar.gz
