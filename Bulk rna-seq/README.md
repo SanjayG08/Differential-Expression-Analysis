@@ -1,7 +1,7 @@
 
-==============================
+
 BULK RNA-SEQ DIFFERENTIAL EXPRESSION ANALYSIS
-==============================
+
 
 Project Title:
 
