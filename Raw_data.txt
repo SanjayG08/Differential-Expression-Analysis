@@ -1,0 +1,12 @@
+
+# Raw_data.txt
+
+SRA Accession Number: SRR6218466, SRR6218469, SRR6218470, SRR6218476, SRR6218478, SRR6218479
+Platform: ILLUMINA
+Samples: 3 Control(SRR6218476, SRR6218478, SRR6218479) and 3 Diabetic(SRR6218466, SRR6218469, SRR6218470)
+Downloaded from: NCBI GEO
+LibraryLayout: PAIRED
+LibrarySelection: cDNA
+LibrarySource: TRANSCRIPTOMIC
+Assay Type: RNA-Seq
+Organism: Homo sapiens
