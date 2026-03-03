@@ -1,0 +1,103 @@
+
+# Alignment_stats.txt
+
+14921850 reads; of these:
+  14921850 (100.00%) were paired; of these:
+    2166977 (14.52%) aligned concordantly 0 times
+    12238574 (82.02%) aligned concordantly exactly 1 time
+    516299 (3.46%) aligned concordantly >1 times
+    ----
+    2166977 pairs aligned concordantly 0 times; of these:
+      38094 (1.76%) aligned discordantly 1 time
+    ----
+    2128883 pairs aligned 0 times concordantly or discordantly; of these:
+      4257766 mates make up the pairs; of these:
+        2657057 (62.40%) aligned 0 times
+        1331700 (31.28%) aligned exactly 1 time
+        269009 (6.32%) aligned >1 times
+91.10% overall alignment rate
+
+D:\hisat2.1>hisat2-align-l.exe -p 6 -x D:\hisat2.1\GRCh38_index -1 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218469_1.fastq -2 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218469_2.fastq -S D:\ANALYSIS\SRR6218469.sam
+17924797 reads; of these:
+  17924797 (100.00%) were paired; of these:
+    2552579 (14.24%) aligned concordantly 0 times
+    14708085 (82.05%) aligned concordantly exactly 1 time
+    664133 (3.71%) aligned concordantly >1 times
+    ----
+    2552579 pairs aligned concordantly 0 times; of these:
+      42046 (1.65%) aligned discordantly 1 time
+    ----
+    2510533 pairs aligned 0 times concordantly or discordantly; of these:
+      5021066 mates make up the pairs; of these:
+        3081386 (61.37%) aligned 0 times
+        1568494 (31.24%) aligned exactly 1 time
+        371186 (7.39%) aligned >1 times
+91.40% overall alignment rate
+
+D:\hisat2.1>hisat2-align-l.exe -p 6 -x D:\hisat2.1\GRCh38_index -1 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218470_1.fastq -2 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218470_2.fastq -S D:\ANALYSIS\SRR6218470.sam
+18012488 reads; of these:
+  18012488 (100.00%) were paired; of these:
+    2492884 (13.84%) aligned concordantly 0 times
+    14747535 (81.87%) aligned concordantly exactly 1 time
+    772069 (4.29%) aligned concordantly >1 times
+    ----
+    2492884 pairs aligned concordantly 0 times; of these:
+      51234 (2.06%) aligned discordantly 1 time
+    ----
+    2441650 pairs aligned 0 times concordantly or discordantly; of these:
+      4883300 mates make up the pairs; of these:
+        3034567 (62.14%) aligned 0 times
+        1474872 (30.20%) aligned exactly 1 time
+        373861 (7.66%) aligned >1 times
+91.58% overall alignment rate
+
+D:\hisat2.1>hisat2-align-l.exe -p 6 -x D:\hisat2.1\GRCh38_index -1 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218476_1.fastq -2 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218476_2.fastq -S E:\SRR6218476.sam
+13776298 reads; of these:
+  13776298 (100.00%) were paired; of these:
+    2075378 (15.06%) aligned concordantly 0 times
+    11130221 (80.79%) aligned concordantly exactly 1 time
+    570699 (4.14%) aligned concordantly >1 times
+    ----
+    2075378 pairs aligned concordantly 0 times; of these:
+      34674 (1.67%) aligned discordantly 1 time
+    ----
+    2040704 pairs aligned 0 times concordantly or discordantly; of these:
+      4081408 mates make up the pairs; of these:
+        2504167 (61.36%) aligned 0 times
+        1267400 (31.05%) aligned exactly 1 time
+        309841 (7.59%) aligned >1 times
+90.91% overall alignment rate
+
+D:\hisat2.1>hisat2-align-l.exe -p 6 -x D:\hisat2.1\GRCh38_index -1 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218478_1.fastq -2 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218478_2.fastq -S E:\samtools-0.1.7_i386-win32\SRR6218478.sam
+15430175 reads; of these:
+  15430175 (100.00%) were paired; of these:
+    2078374 (13.47%) aligned concordantly 0 times
+    12838701 (83.21%) aligned concordantly exactly 1 time
+    513100 (3.33%) aligned concordantly >1 times
+    ----
+    2078374 pairs aligned concordantly 0 times; of these:
+      43631 (2.10%) aligned discordantly 1 time
+    ----
+    2034743 pairs aligned 0 times concordantly or discordantly; of these:
+      4069486 mates make up the pairs; of these:
+        2529729 (62.16%) aligned 0 times
+        1285027 (31.58%) aligned exactly 1 time
+        254730 (6.26%) aligned >1 times
+91.80% overall alignment rate
+
+D:\hisat2.1>hisat2-align-l.exe -p 6 -x D:\hisat2.1\GRCh38_index -1 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218479_1.fastq -2 D:\ANALYSIS\TRIMMOMATIC\Fastq_Files\SRR6218479_2.fastq -S E:\samtools-0.1.7_i386-win32\SRR6218479.sam
+20055166 reads; of these:
+  20055166 (100.00%) were paired; of these:
+    2741681 (13.67%) aligned concordantly 0 times
+    16598141 (82.76%) aligned concordantly exactly 1 time
+    715344 (3.57%) aligned concordantly >1 times
+    ----
+    2741681 pairs aligned concordantly 0 times; of these:
+      69706 (2.54%) aligned discordantly 1 time
+    ----
+    2671975 pairs aligned 0 times concordantly or discordantly; of these:
+      5343950 mates make up the pairs; of these:
+        3293182 (61.62%) aligned 0 times
+        1717830 (32.15%) aligned exactly 1 time
+        332938 (6.23%) aligned >1 times
+91.79% overall alignment rate
